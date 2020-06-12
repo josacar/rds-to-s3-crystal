@@ -1,0 +1,17 @@
+name: example
+version: 0.1.0
+
+dependencies:
+  crambda:
+    github: lambci/crambda
+  mysql:
+    github: crystal-lang/crystal-mysql
+  awscr-s3:
+    github: taylorfinnell/awscr-s3
+  aws-credentials:
+    github: y2k2mt/aws-credentials
+    branch: master
+
+targets:
+  bootstrap:
+    main: src/main.cr

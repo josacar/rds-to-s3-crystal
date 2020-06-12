@@ -1,0 +1,26 @@
+version: 2.0
+shards:
+  aws-credentials:
+    git: https://github.com/y2k2mt/aws-credentials.git
+    version: 0.4.0+git.commit.94c679032c5616563eb3d2e24f0a894a5586ec5e
+
+  awscr-s3:
+    git: https://github.com/taylorfinnell/awscr-s3.git
+    version: 0.8.0
+
+  awscr-signer:
+    git: https://github.com/taylorfinnell/awscr-signer.git
+    version: 0.7.0
+
+  crambda:
+    git: https://github.com/lambci/crambda.git
+    version: 0.2.0
+
+  db:
+    git: https://github.com/crystal-lang/crystal-db.git
+    version: 0.9.0
+
+  mysql:
+    git: https://github.com/crystal-lang/crystal-mysql.git
+    version: 0.11.1
+
